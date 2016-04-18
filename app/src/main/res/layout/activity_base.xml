@@ -3,5 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="buruoyanyang.getmoney.MainActivity">
+    android:id="@+id/root_layout"
+    tools:context="buruoyanyang.getmoney.BaseActivity">
+    <include layout="@layout/toolbar_layout"/>
 </RelativeLayout>
